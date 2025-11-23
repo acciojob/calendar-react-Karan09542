@@ -9,4 +9,29 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+select, input {
+    display: inline-block;
+    outline: none;
+    border: 2px solid rgb(96, 96, 251);
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.year {
+    border-bottom: 2px solid rgb(96, 96, 251);
+    padding: 8px;
+    background-color: rgb(96, 96, 251);
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+}
+input {
+    width: fit-content;
+    padding: 8px 5px;
+    width: 50px;
 }
